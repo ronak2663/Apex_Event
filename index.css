@@ -3,7 +3,7 @@
     margin: 0;
 }
 .top {
-    height: 110vh;
+    height: 120vh;
 }
 .top > img{
     width: 98.5vw;
@@ -69,4 +69,58 @@ nav a:hover{
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+
+.spoorti {
+    display: flex;
+}
+
+.icon {
+    height: 10rem;
+    position: absolute;
+    align-items: center;
+}
+#spoorti {
+    height: 8rem;
+    top: 6.7rem;
+    left: 17rem;
+}
+#heart {
+    top: 14rem;
+    left: 1rem;
+    rotate: -31deg;
+}
+#basketball {
+    height: 13rem;
+    top: 28rem;
+    left: 1rem;
+}
+#sprint {
+    height: 15rem;
+    top: 25.8rem;
+    left: 17rem;
+    rotate: -5deg;
+}
+#champion{
+    height: 5rem;
+    top: 35rem;
+    left: 55rem;
+    rotate: -20deg;
+}
+#questionmark {
+    height: 7rem;
+    top: 30rem;
+    left: 72rem;
+    rotate: -20deg;
+}
+#jogging {
+    height: 15rem;
+    top: 15.8rem;
+    left: 65rem;
+}
+#football {
+    height: 15rem;
+    top: 22rem;
+    left: 37rem;
 }
