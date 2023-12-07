@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top {
+    height: 120vh;
+}
+.top > img{
+    width: 98.5vw;
+    position: absolute;
+    z-index: -10;
+}
+nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-image: url(images\bg.png);
+}
+.nav {
+    display: flex;
+    position: relative;
+    width: 87vw;
+    justify-content: center;
+}
+nav a{
+    text-align: center;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    transition: all .5s ;
+    font-weight: bolder;
+}
+nav a:hover{
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    scale: 1.5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+}
+.logo {
+    margin: 10px;
+}
+.logo img{
+    height: 5rem;
+}
+
+.content {
+    padding: 20px;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.spoorti {
+    display: flex;
+}
+
+.icon {
+    height: 10rem;
+    position: absolute;
+    align-items: center;
+}
+#spoorti {
+    height: 8rem;
+    top: 6.7rem;
+    left: 17rem;
+}
+#heart {
+    top: 14rem;
+    left: 1rem;
+    rotate: -31deg;
+}
+#basketball {
+    height: 13rem;
+    top: 28rem;
+    left: 1rem;
+}
+#sprint {
+    height: 15rem;
+    top: 25.8rem;
+    left: 17rem;
+    rotate: -5deg;
+}
+#champion{
+    height: 5rem;
+    top: 35rem;
+    left: 55rem;
+    rotate: -20deg;
+}
+#questionmark {
+    height: 7rem;
+    top: 30rem;
+    left: 72rem;
+    rotate: -20deg;
+}
+#jogging {
+    height: 15rem;
+    top: 15.8rem;
+    left: 65rem;
+}
+#football {
+    height: 15rem;
+    top: 22rem;
+    left: 37rem;
+}
